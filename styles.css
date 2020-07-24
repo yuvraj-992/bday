@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans";
+
+
+}
+body{
+  background-color: #1b1c25;
+}
+.text{
+color: #ebecf1;
+font-size: 40px;
+animation: text 4s 1;
+}
+
+.container span{
+  text-transform: uppercase;
+
+
+}
+.container{
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 100%;
+letter-spacing: 2px;
+}
+
+.lnked{
+  font-size: 20px;
+}
+
+@keyframes text {
+  0%{
+    color: #ebecf1;
+    margin-bottom: -35px;
+
+  }
+  30%{
+    letter-spacing: 15px;
+    margin-bottom: -35px;
+  }
+  75%{
+    margin-bottom: -35%;
+  }
+}
+
+
+
+
+.c2{
+  background-color: #f4f6ff;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.title
+{
+
+  font-family: 'Dancing Script', cursive;
+  color: #562349;
+  text-align: center;
+  top: 45%;
+  left: 40%;
+  position: absolute;
+  font-size: 50px;
+
+}
+
+.button
+{
+background-color: #ebecf1;
+border: none;
+text-align: center;
+padding: 10px 10px;
+margin: 5px 5px;
+display: inline-block;
+text-decoration-color: #1b262c;
+}
+
+.btn1{
+  background-color: #ebecf1;
+  border: none;
+  text-align: center;
+  padding: 15px 15px;
+  margin: 5px 5px;
+  display: inline-block;
+  font-size: 20px;
+
+}
+button:hover{
+  background-color: #cbeaed;
+}
+ .gal{
+   align-items: center;
+   margin: 0 auto;
+   left: 5%;
+   top: 20%;
+   position: absolute;
+   float: left;
+   right: 10%;
+ }
+ .imm1,.imm2,.imm3,.imm4,.imm5,.imm6,.imm7,.imm8,.imm9{
+  position: relative;
+ }
+
+.imm1:hover,.imm2:hover,.imm3:hover,.imm4:hover,.imm5:hover,.imm6:hover,.imm7:hover,.imm8:hover,.imm9:hover{
+  -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+.grey{
+top: 80%;
+left: 45%;
+position: absolute;
+}
+
+.main-image{
+top: 10%;
+left: 30%;
+position: absolute;
+
+}
+h2{
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  right: 10%;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: #562349;
+}
